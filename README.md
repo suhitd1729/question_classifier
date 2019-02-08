@@ -9,10 +9,10 @@
 **Approach 1**
 
 The first approach is more naive. It just checks for certain words such as how , where, what , when etc. 
-(will refer to these as q_words from here on) in the text provided. 
+(will refer to these as *q_words* from here on) in the text provided. 
 
-Normally, I would have only checked if any of the sentences provided begins with one of the q_words, but then,
-I would miss out on sentences which might be a question where the q_words occur in the middle.
+Normally, I would have only checked if any of the sentences provided begins with one of the *q_words*, but then,
+I would miss out on sentences which might be a question where the *q_words* occur in the middle.
 
 Since my aim is to build an adequate Question identifier model , I would rather have a few False Positives than miss 
 out on a Inquiry statement that might be relevant.
